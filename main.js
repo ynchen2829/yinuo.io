@@ -1,7 +1,7 @@
 
-import * as THREE from 'https://unpkg.com/three@0.120.1/build/three.module.js';
-import {OrbitControls} from 'https://unpkg.com/three@0.120.1/jsm/controls/OrbitControls';
-import {GLTFLoader} from "https://unpkg.com/three@0.120.1/jsm/loaders/GLTFLoader.js";
+import * as THREE from 'https://unpkg.com/three@0.120.1/build/three.module';
+import {OrbitControls} from 'https://unpkg.com/three@0.120.1/examples/jsm/controls/OrbitControls';
+import {GLTFLoader} from "https://unpkg.com/three@0.120.1/examples/jsm/loaders/GLTFLoader";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight,0.1,1000);
